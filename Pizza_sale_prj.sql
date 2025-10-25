@@ -32,12 +32,6 @@ IGNORE 1 ROWS;
 select * from pizza_sales limit 5;
 
 
-SELECT @@hostname AS 'Server Name';
-
-SHOW VARIABLES LIKE 'hostname';
-SHOW VARIABLES LIKE 'port';
-
-SELECT @@hostname AS Hostname, @@port AS Port, @@version AS Version;
 
 
 
