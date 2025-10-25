@@ -1,7 +1,10 @@
+-- Creating Database --
 CREATE DATABASE PIZZA_DB;
+
+-- Using the database --
 USE PIZZA_DB;
 
-
+-- Creating table named pizza_sales --
 CREATE TABLE pizza_sales (
     pizza_id INT PRIMARY KEY,
     order_id INT NOT NULL,
@@ -17,16 +20,6 @@ CREATE TABLE pizza_sales (
     pizza_name VARCHAR(200) NOT NULL
 );
 
-
-SHOW VARIABLES LIKE 'secure_file_priv';
-SET GLOBAL local_infile = 1;
-
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/pizza_sales.csv'
-INTO TABLE pizza_sales
-FIELDS TERMINATED BY ',' 
-OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
 
 
 select * from pizza_sales limit 5;
