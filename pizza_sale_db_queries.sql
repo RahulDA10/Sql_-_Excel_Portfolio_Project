@@ -41,19 +41,6 @@ from pizza_sales
 -- WHERE MONTH(ORDER_DATE) = 2   IF WE WANT TO RETRIVE THE TOTAL SALE PERCENTAGE IN FEBRUARY MONTH --
 group by pizza_category;
 
--- EXPLANATION -- 
-/*SUM(total_price)
-This is an aggregate function that computes the sum of total_price for the rows in each group (here, for each pizza_category).
-It produces the numerator (revenue for that category).
-* 100 /
-Basic arithmetic: multiply that category sum by 100 and then divide by the overall sum.
-This yields a percentage value (category revenue as percent of total revenue).
-
-(SELECT sum(total_price) FROM pizza_sales)
-This is a scalar subquery that computes the grand total revenue across the entire pizza_sales table.
-	It returns a single value (the denominator). In the expression, SUM(total_price) * 100 / (that value) gives the percent share.
-as total_rev */
-
 
 -- PERCENTAGE OF SALES BY PIZZA SIZE --
 SELECT pizza_size, SUM(total_price) AS total_sales, 
