@@ -16,7 +16,7 @@ Pizza businesses generate large volumes of sales data every day, making it chall
 The objective of this project is to analyze pizza sales data using MySQL and Excel to uncover actionable business insights. By examining sales transactions, order trends, revenue distribution, and product performance, the project aims to help stakeholders make data-driven decisions regarding inventory management, menu optimization, marketing strategies, and overall business growth.
 
 
-Objective
+* # Objective
 
 The objective of this project is to perform an end-to-end analysis of pizza sales data using MySQL and Excel in order to generate meaningful business insights and support data-driven decision-making.
 
