@@ -1,4 +1,4 @@
-# Pizza Sales Analysis | MySQL & Excel
+# Pizza Sales and Revenue Analysis | MySQL & Excel
 
 * # Project Overview
 This project is part of my data analytics portfolio, showcasing my ability to analyze business data using MySQL for data cleaning and exploration, and Excel for visualization and dashboard creation.
